@@ -1,18 +1,13 @@
 {
   "name": "test-aqua-backend",
   "version": "1.0.0",
-  "description": "Backend app for Aqua malicious package testing",
+  "description": "Backend app for Aqua vulnerability testing",
   "main": "server.js",
   "dependencies": {
-    "express": "4.18.2",
-    "jsonwebtoken": "9.0.0",
-    "mongoose": "7.0.3",
-    "body-parser": "1.20.2",
-    "cors": "2.8.5",
-    "dotenv": "16.0.3"
+    "lodash": "4.17.11"
   },
   "devDependencies": {
-    "nodemon": "2.0.22"
+    "lemaaa": "1.0.0"
   },
   "scripts": {
     "start": "node server.js",
