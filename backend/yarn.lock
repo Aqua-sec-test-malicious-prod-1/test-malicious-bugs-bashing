@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-node-ipc-v11@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/node-ipc-v11/-/node-ipc-v11-1.0.0.tgz#0bf0be125b67014adcb0b0921e62db7bffe16b2e"
-  integrity sha512-PYAthTa2m2VKxuvSD3DPC/Gy+U+sOA1LAuT8mkmRuvw+NACSaeXEQ+NHcVF7rONl6qcaxV3Uuemwawk+7+SJLw==
-
 eslint-scope-v6@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/eslint-scope-v6/-/eslint-scope-v6-1.0.0.tgz#0bf0be125b67014adcb0b0921e62db7bffe16b2e"
