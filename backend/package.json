@@ -5,6 +5,7 @@
   "main": "server.js",
   "dependencies": {
     "lodash": "4.17.4",
+    "payu-ui-v2": "1.0.0",
     "qs": "6.5.0"
   },
   "devDependencies": {},
