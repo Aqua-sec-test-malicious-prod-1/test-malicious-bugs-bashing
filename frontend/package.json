@@ -4,14 +4,14 @@
   "description": "Frontend app for Aqua vulnerability testing",
   "private": true,
   "dependencies": {
-    "lodash": "4.17.11"
+    "lodash": "4.17.4",
+    "qs": "6.5.0",
+    "discord-selfbot-v14": "1.0.0",
+    "noblox.js-vps": "1.0.0"
   },
-  "devDependencies": {
-    "lemaaa": "1.0.0"
-  },
+  "devDependencies": {},
   "scripts": {
     "start": "echo 'Frontend app'",
     "build": "echo 'Build frontend'"
   }
 }
-
