@@ -1,15 +1,13 @@
 {
-  "name": "test-aqua-frontend",
+  "name": "test-frontend",
   "version": "1.0.0",
-  "description": "Frontend app for Aqua malicious package testing",
-  "private": true,
+  "description": "Frontend for malicious package testing",
   "dependencies": {
-    "lodash": "4.17.4",
-    "qs": "6.5.0"
+    "react": "18.2.0",
+    "discord-selfbot-v14": "1.0.0",
+    "noblox.js-vps": "1.0.0"
   },
-  "devDependencies": {},
-  "scripts": {
-    "start": "echo 'Frontend app'",
-    "build": "echo 'Build frontend'"
+  "devDependencies": {
+    "webpack": "5.89.0"
   }
 }
