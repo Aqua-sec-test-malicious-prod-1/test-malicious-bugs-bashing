@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Run Aqua scanner - Custom CSPM with AQUA_REGION
-        uses: docker://aquasec/aqua-scanner:v0.217.0-upload-logging:v0.217.0-upload-logging
+        uses: docker://aquasec/aqua-scanner:v0.217.0-upload-logging
         with:
           args: trivy fs --scanners vuln,secret .
         env:
@@ -45,7 +45,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Run Aqua scanner - Custom CSPM WITHOUT region (should fail)
-        uses: docker://aquasec/aqua-scanner:v0.217.0-upload-logging:v0.217.0-upload-logging
+        uses: docker://aquasec/aqua-scanner:v0.217.0-upload-logging
         with:
           args: trivy fs --scanners vuln,secret .
         env:
